@@ -1,0 +1,2 @@
+I am inside the inner directory.
+Copy me, if you can.
