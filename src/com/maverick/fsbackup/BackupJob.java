@@ -1,6 +1,8 @@
 package com.maverick.fsbackup;
 
+import com.google.inject.internal.util.Lists;
 import lombok.AllArgsConstructor;
+import org.apache.log4j.Logger;
 
 import java.util.List;
 
@@ -10,16 +12,18 @@ public class BackupJob extends Thread {
     String sourceRoot;
     String destinationRoot;
     List<String> fileList;
+    List<String> command;
     @Override
     public void run() {
-        Copier copier = new Copier();
         int filesCopied = 0;
+
         for(String x: fileList) {
-            //System.out.println(x);
+            Logger.getRootLogger().debug(x);
+            Copier copier = new Copier(Lists.newArrayList(command));
             String sourceFile = x;
             String destinationFile = x.replace(sourceRoot, destinationRoot);
             filesCopied += copier.copy(sourceFile, destinationFile);
         }
-        System.out.println("Total files backed up by Thread #" + threadRank + ": " + filesCopied);
+        Logger.getRootLogger().info("Files backed up by Thread #" + threadRank + ": " + filesCopied);
     }
 }

@@ -16,6 +16,9 @@ public class InputArguments {
     @Parameter(names = {"--ts", "-t"}, description = "Last run timestamp location.")
     private List<String> tsPath;
 
+    @Parameter(names = {"--connType", "-c"}, description = "Connection type: adb/fs")
+    private String connType;
+
     @Parameter(names = {"--tc"}, description = "Last run timestamp location.")
     private  Integer threadCount = 6;
 }

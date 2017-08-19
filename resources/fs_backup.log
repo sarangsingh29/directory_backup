@@ -1,0 +1,1160 @@
+2017-08-19 19:31:04 ERROR root:25 - Go
+2017-08-19 19:32:02 ERROR root:25 - Go
+2017-08-19 19:32:14 ERROR root:25 - Go
+ERROR	2017-08-19 19:33:22,661	0	root	[main]	Go
+ HH:mm:ss} ERROR root:25 - Go
+WARN	2017-08-19 19:41:21,440	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+DEBUG	2017-08-19 19:41:21,596	156	root	[main]	test_resources/test1/output/dir1/inner1/file2.txt
+ HH:mm:ss} DEBUG root:42 - test_resources/test1/output/dir1/inner1/file2.txt
+DEBUG	2017-08-19 19:41:21,610	170	root	[main]	test_resources/test1/output/file1.txt
+ HH:mm:ss} DEBUG root:42 - test_resources/test1/output/file1.txt
+DEBUG	2017-08-19 19:41:21,613	173	root	[main]	test_resources/test1/input/dir1/inner1/file2.txt
+ HH:mm:ss} DEBUG root:42 - test_resources/test1/input/dir1/inner1/file2.txt
+DEBUG	2017-08-19 19:41:21,616	176	root	[main]	test_resources/test1/input/file1.txt
+ HH:mm:ss} DEBUG root:42 - test_resources/test1/input/file1.txt
+INFO	2017-08-19 19:41:21,628	188	root	[main]	Number of files to be backed up: 4
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 4
+DEBUG	2017-08-19 19:41:21,631	191	root	[Thread-0]	test_resources/test1/output/dir1/inner1/file2.txt
+ HH:mm:ss} DEBUG root:21 - test_resources/test1/output/dir1/inner1/file2.txt
+DEBUG	2017-08-19 19:41:21,633	193	root	[Thread-1]	test_resources/test1/output/file1.txt
+ HH:mm:ss} DEBUG root:21 - test_resources/test1/output/file1.txt
+DEBUG	2017-08-19 19:41:21,634	194	root	[Thread-2]	test_resources/test1/input/dir1/inner1/file2.txt
+ HH:mm:ss} DEBUG root:21 - test_resources/test1/input/dir1/inner1/file2.txt
+INFO	2017-08-19 19:41:21,636	196	root	[Thread-2]	Files backed up by Thread #3: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 0
+DEBUG	2017-08-19 19:41:21,637	197	root	[Thread-3]	test_resources/test1/input/file1.txt
+ HH:mm:ss} DEBUG root:21 - test_resources/test1/input/file1.txt
+INFO	2017-08-19 19:41:21,639	199	root	[Thread-3]	Files backed up by Thread #4: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #4: 0
+INFO	2017-08-19 19:41:21,639	199	root	[Thread-1]	Files backed up by Thread #2: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #2: 0
+INFO	2017-08-19 19:41:21,640	200	root	[Thread-0]	Files backed up by Thread #1: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 0
+INFO	2017-08-19 19:41:21,641	201	root	[main]	Results: Threads#: 4 Time: 12
+ HH:mm:ss} INFO  root:67 - Results: Threads#: 4 Time: 12
+INFO	2017-08-19 19:41:21,641	201	root	[main]	Backup Timestamp: 1503171681
+ HH:mm:ss} INFO  root:68 - Backup Timestamp: 1503171681
+WARN	2017-08-19 19:41:34,759	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+INFO	2017-08-19 19:41:34,908	149	root	[main]	Number of files to be backed up: 4
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 4
+INFO	2017-08-19 19:41:34,912	153	root	[Thread-2]	Files backed up by Thread #3: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 0
+INFO	2017-08-19 19:41:34,917	158	root	[Thread-3]	Files backed up by Thread #4: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #4: 0
+INFO	2017-08-19 19:41:34,921	162	root	[Thread-0]	Files backed up by Thread #1: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 0
+WARN	2017-08-19 19:42:24,793	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+INFO	2017-08-19 19:42:24,938	145	root	[main]	Number of files to be backed up: 4
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 4
+INFO	2017-08-19 19:42:24,943	150	root	[Thread-0]	Files backed up by Thread #1: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 0
+INFO	2017-08-19 19:42:24,944	151	root	[Thread-1]	Files backed up by Thread #2: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #2: 0
+INFO	2017-08-19 19:42:24,959	166	root	[Thread-2]	Files backed up by Thread #3: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 0
+INFO	2017-08-19 19:42:24,960	167	root	[Thread-3]	Files backed up by Thread #4: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #4: 0
+INFO	2017-08-19 19:42:24,961	168	root	[main]	Results: Threads#: 4 Time: 20
+ HH:mm:ss} INFO  root:67 - Results: Threads#: 4 Time: 20
+INFO	2017-08-19 19:42:24,961	168	root	[main]	Backup Timestamp: 1503171744
+ HH:mm:ss} INFO  root:68 - Backup Timestamp: 1503171744
+WARN	2017-08-19 19:43:26,644	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+ERROR	2017-08-19 19:43:26,874	230	root	[main]	/home/maverick/Projects/directory_backup/.git/packed\-refs
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/packed\-refs
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 19:43:26,884	240	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 19:43:26,891	247	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 19:43:26,898	254	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 19:43:26,900	256	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 19:43:26,903	259	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 19:43:26,908	264	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 19:43:26,915	271	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 19:43:26,918	274	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 19:43:26,924	280	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+INFO	2017-08-19 19:43:27,013	369	root	[main]	Number of files to be backed up: 130
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 130
+INFO	2017-08-19 19:43:27,088	444	root	[Thread-0]	Files backed up by Thread #1: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 0
+INFO	2017-08-19 19:43:27,105	461	root	[Thread-9]	Files backed up by Thread #10: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #10: 0
+INFO	2017-08-19 19:43:27,129	485	root	[Thread-8]	Files backed up by Thread #9: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #9: 0
+INFO	2017-08-19 19:43:27,215	571	root	[Thread-6]	Files backed up by Thread #7: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #7: 0
+INFO	2017-08-19 19:43:27,222	578	root	[Thread-1]	Files backed up by Thread #2: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #2: 0
+INFO	2017-08-19 19:43:27,223	579	root	[Thread-2]	Files backed up by Thread #3: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 0
+INFO	2017-08-19 19:43:27,233	589	root	[Thread-7]	Files backed up by Thread #8: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #8: 0
+INFO	2017-08-19 19:43:27,255	611	root	[Thread-5]	Files backed up by Thread #6: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #6: 0
+WARN	2017-08-19 20:13:47,620	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+ERROR	2017-08-19 20:13:47,839	219	root	[main]	/home/maverick/Projects/directory_backup/.git/packed\-refs
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/packed\-refs
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:13:47,855	235	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:13:47,858	238	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:13:47,865	245	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:13:47,871	251	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:13:47,873	253	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:13:47,876	256	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:13:47,879	259	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:13:47,881	261	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:13:47,883	263	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+INFO	2017-08-19 20:13:47,959	339	root	[main]	Number of files to be backed up: 130
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 130
+INFO	2017-08-19 20:13:48,005	385	root	[Thread-1]	Files backed up by Thread #2: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #2: 0
+INFO	2017-08-19 20:13:48,012	392	root	[Thread-2]	Files backed up by Thread #3: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 0
+INFO	2017-08-19 20:13:48,022	402	root	[Thread-9]	Files backed up by Thread #10: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #10: 0
+INFO	2017-08-19 20:13:48,027	407	root	[Thread-6]	Files backed up by Thread #7: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #7: 0
+INFO	2017-08-19 20:13:48,029	409	root	[Thread-3]	Files backed up by Thread #4: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #4: 0
+INFO	2017-08-19 20:13:48,032	412	root	[Thread-4]	Files backed up by Thread #5: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #5: 0
+INFO	2017-08-19 20:13:48,036	416	root	[Thread-0]	Files backed up by Thread #1: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 0
+INFO	2017-08-19 20:13:48,039	419	root	[Thread-5]	Files backed up by Thread #6: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #6: 0
+INFO	2017-08-19 20:13:48,040	420	root	[Thread-8]	Files backed up by Thread #9: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #9: 0
+INFO	2017-08-19 20:13:48,042	422	root	[Thread-7]	Files backed up by Thread #8: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #8: 0
+INFO	2017-08-19 20:13:48,043	423	root	[main]	Results: Threads#: 10 Time: 82
+ HH:mm:ss} INFO  root:67 - Results: Threads#: 10 Time: 82
+INFO	2017-08-19 20:13:48,043	423	root	[main]	Backup Timestamp: 1503173628
+ HH:mm:ss} INFO  root:68 - Backup Timestamp: 1503173628
+WARN	2017-08-19 20:14:08,524	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+ERROR	2017-08-19 20:14:08,761	237	root	[main]	find\:\ /home/maverick/Projects\:\ No\ such\ file\ or\ directory
+ HH:mm:ss} ERROR root:57 - find\:\ /home/maverick/Projects\:\ No\ such\ file\ or\ directory
+java.lang.NumberFormatException: For input string: "date: Can't stat find: /home/maverick/Projects: No such file or directory: No such file or directory"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+INFO	2017-08-19 20:14:08,765	241	root	[main]	Number of files to be backed up: 1
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 1
+INFO	2017-08-19 20:14:08,794	270	root	[Thread-0]	Files backed up by Thread #1: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 0
+INFO	2017-08-19 20:14:08,794	270	root	[main]	Results: Threads#: 1 Time: 28
+ HH:mm:ss} INFO  root:67 - Results: Threads#: 1 Time: 28
+INFO	2017-08-19 20:14:08,795	271	root	[main]	Backup Timestamp: 1503173648
+ HH:mm:ss} INFO  root:68 - Backup Timestamp: 1503173648
+WARN	2017-08-19 20:14:44,375	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+ERROR	2017-08-19 20:14:44,588	213	root	[main]	/home/maverick/Projects/directory_backup/.git/packed\-refs
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/packed\-refs
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:14:44,599	224	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:14:44,601	226	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:14:44,610	235	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:14:44,611	236	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:14:44,613	238	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:14:44,615	240	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:14:44,616	241	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:14:44,618	243	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:14:44,621	246	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+INFO	2017-08-19 20:14:44,706	331	root	[main]	Number of files to be backed up: 130
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 130
+INFO	2017-08-19 20:14:44,752	377	root	[Thread-8]	Files backed up by Thread #9: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #9: 0
+INFO	2017-08-19 20:14:44,758	383	root	[Thread-5]	Files backed up by Thread #6: 12
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #6: 12
+INFO	2017-08-19 20:14:44,759	384	root	[Thread-1]	Files backed up by Thread #2: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #2: 0
+INFO	2017-08-19 20:14:44,773	398	root	[Thread-4]	Files backed up by Thread #5: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #5: 0
+INFO	2017-08-19 20:14:44,789	414	root	[Thread-2]	Files backed up by Thread #3: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 0
+INFO	2017-08-19 20:14:44,792	417	root	[Thread-0]	Files backed up by Thread #1: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 0
+INFO	2017-08-19 20:14:44,800	425	root	[Thread-9]	Files backed up by Thread #10: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #10: 0
+INFO	2017-08-19 20:14:44,802	427	root	[Thread-6]	Files backed up by Thread #7: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #7: 13
+INFO	2017-08-19 20:14:44,825	450	root	[Thread-7]	Files backed up by Thread #8: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #8: 13
+INFO	2017-08-19 20:14:44,834	459	root	[Thread-3]	Files backed up by Thread #4: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #4: 0
+INFO	2017-08-19 20:14:44,835	460	root	[main]	Results: Threads#: 10 Time: 128
+ HH:mm:ss} INFO  root:67 - Results: Threads#: 10 Time: 128
+INFO	2017-08-19 20:14:44,835	460	root	[main]	Backup Timestamp: 1503173684
+ HH:mm:ss} INFO  root:68 - Backup Timestamp: 1503173684
+WARN	2017-08-19 20:15:46,477	1	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+ERROR	2017-08-19 20:15:46,702	226	root	[main]	/home/maverick/Projects/directory_backup/.git/packed\-refs
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/packed\-refs
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:15:46,710	234	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:15:46,713	237	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:15:46,721	245	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:15:46,727	251	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:15:46,730	254	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:15:46,734	258	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:15:46,737	261	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:15:46,739	263	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:15:46,741	265	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+INFO	2017-08-19 20:15:46,814	338	root	[main]	Number of files to be backed up: 130
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 130
+INFO	2017-08-19 20:15:46,890	414	root	[Thread-8]	Files backed up by Thread #9: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #9: 13
+INFO	2017-08-19 20:15:46,901	425	root	[Thread-3]	Files backed up by Thread #4: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #4: 13
+INFO	2017-08-19 20:15:46,903	427	root	[Thread-2]	Files backed up by Thread #3: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 13
+INFO	2017-08-19 20:15:46,904	428	root	[Thread-1]	Files backed up by Thread #2: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #2: 13
+INFO	2017-08-19 20:15:46,906	430	root	[Thread-6]	Files backed up by Thread #7: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #7: 0
+INFO	2017-08-19 20:15:46,908	432	root	[Thread-9]	Files backed up by Thread #10: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #10: 13
+INFO	2017-08-19 20:15:46,930	454	root	[Thread-7]	Files backed up by Thread #8: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #8: 0
+INFO	2017-08-19 20:15:46,931	455	root	[Thread-0]	Files backed up by Thread #1: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 13
+INFO	2017-08-19 20:15:46,946	470	root	[Thread-4]	Files backed up by Thread #5: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #5: 13
+INFO	2017-08-19 20:15:46,948	472	root	[Thread-5]	Files backed up by Thread #6: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #6: 1
+INFO	2017-08-19 20:15:46,949	473	root	[main]	Results: Threads#: 10 Time: 134
+ HH:mm:ss} INFO  root:67 - Results: Threads#: 10 Time: 134
+INFO	2017-08-19 20:15:46,949	473	root	[main]	Backup Timestamp: 1503173746
+ HH:mm:ss} INFO  root:68 - Backup Timestamp: 1503173746
+WARN	2017-08-19 20:23:05,757	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+ERROR	2017-08-19 20:23:06,270	513	root	[main]	/home/maverick/Projects/directory_backup/.git/packed\-refs
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/packed\-refs
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:23:06,283	526	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/applypatch\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:23:06,293	536	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-receive.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:23:06,303	546	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-push.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:23:06,317	560	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-commit.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:23:06,337	580	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/prepare\-commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:23:06,360	603	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-applypatch.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:23:06,364	607	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/post\-update.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:23:06,381	624	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/commit\-msg.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+ERROR	2017-08-19 20:23:06,394	637	root	[main]	/home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+ HH:mm:ss} ERROR root:57 - /home/maverick/Projects/directory_backup/.git/hooks/pre\-rebase.sample
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at com.maverick.fsbackup.FileDeltaGenerator.lambda$generateFileList$0(FileDeltaGenerator.java:55)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.maverick.fsbackup.FileDeltaGenerator.generateFileList(FileDeltaGenerator.java:60)
+	at com.maverick.fsbackup.BackupController.startBackup(BackupController.java:29)
+	at com.maverick.fsbackup.BackupStarter.main(BackupStarter.java:48)
+INFO	2017-08-19 20:23:06,750	993	root	[main]	Number of files to be backed up: 130
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 130
+INFO	2017-08-19 20:23:06,958	1201	root	[Thread-0]	Files backed up by Thread #1: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 13
+INFO	2017-08-19 20:23:06,971	1214	root	[Thread-1]	Files backed up by Thread #2: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #2: 13
+INFO	2017-08-19 20:23:06,973	1216	root	[Thread-2]	Files backed up by Thread #3: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 13
+INFO	2017-08-19 20:23:06,992	1235	root	[Thread-4]	Files backed up by Thread #5: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #5: 13
+INFO	2017-08-19 20:23:06,992	1235	root	[Thread-3]	Files backed up by Thread #4: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #4: 13
+INFO	2017-08-19 20:23:07,002	1245	root	[Thread-5]	Files backed up by Thread #6: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #6: 1
+INFO	2017-08-19 20:23:07,004	1247	root	[Thread-9]	Files backed up by Thread #10: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #10: 13
+INFO	2017-08-19 20:23:07,008	1251	root	[Thread-6]	Files backed up by Thread #7: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #7: 0
+INFO	2017-08-19 20:23:07,010	1253	root	[Thread-8]	Files backed up by Thread #9: 13
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #9: 13
+INFO	2017-08-19 20:23:07,013	1256	root	[Thread-7]	Files backed up by Thread #8: 0
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #8: 0
+INFO	2017-08-19 20:23:07,014	1257	root	[main]	Results: Threads#: 10 Time: 263
+ HH:mm:ss} INFO  root:67 - Results: Threads#: 10 Time: 263
+INFO	2017-08-19 20:23:07,014	1257	root	[main]	Backup Timestamp: 1503174187
+ HH:mm:ss} INFO  root:68 - Backup Timestamp: 1503174187
+WARN	2017-08-19 20:24:02,185	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+INFO	2017-08-19 20:24:02,674	489	root	[main]	Number of files to be backed up: 5
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 5
+INFO	2017-08-19 20:24:02,696	511	root	[Thread-1]	Files backed up by Thread #2: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #2: 1
+INFO	2017-08-19 20:24:02,696	511	root	[Thread-2]	Files backed up by Thread #3: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 1
+INFO	2017-08-19 20:24:02,699	514	root	[Thread-0]	Files backed up by Thread #1: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 1
+INFO	2017-08-19 20:24:02,705	520	root	[Thread-4]	Files backed up by Thread #5: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #5: 1
+INFO	2017-08-19 20:24:02,716	531	root	[Thread-3]	Files backed up by Thread #4: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #4: 1
+INFO	2017-08-19 20:24:02,716	531	root	[main]	Results: Threads#: 5 Time: 41
+ HH:mm:ss} INFO  root:67 - Results: Threads#: 5 Time: 41
+INFO	2017-08-19 20:24:02,716	531	root	[main]	Backup Timestamp: 1503174242
+ HH:mm:ss} INFO  root:68 - Backup Timestamp: 1503174242
+WARN	2017-08-19 20:25:29,087	0	root	[main]	Timestamp file not found. Default value: 0.
+ HH:mm:ss} WARN  root:32 - Timestamp file not found. Default value: 0.
+INFO	2017-08-19 20:25:29,630	543	root	[main]	Number of files to be backed up: 5
+ HH:mm:ss} INFO  root:36 - Number of files to be backed up: 5
+INFO	2017-08-19 20:25:29,904	817	root	[Thread-4]	Files backed up by Thread #5: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #5: 1
+INFO	2017-08-19 20:25:30,088	1001	root	[Thread-0]	Files backed up by Thread #1: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #1: 1
+INFO	2017-08-19 20:25:30,142	1055	root	[Thread-2]	Files backed up by Thread #3: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #3: 1
+INFO	2017-08-19 20:25:30,153	1066	root	[Thread-1]	Files backed up by Thread #2: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #2: 1
+INFO	2017-08-19 20:25:31,108	2021	root	[Thread-3]	Files backed up by Thread #4: 1
+ HH:mm:ss} INFO  root:27 - Files backed up by Thread #4: 1
+INFO	2017-08-19 20:25:31,109	2022	root	[main]	Results: Threads#: 5 Time: 1477
+ HH:mm:ss} INFO  root:67 - Results: Threads#: 5 Time: 1477
+INFO	2017-08-19 20:25:31,109	2022	root	[main]	Backup Timestamp: 1503174331
+ HH:mm:ss} INFO  root:68 - Backup Timestamp: 1503174331
